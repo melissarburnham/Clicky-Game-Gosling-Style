@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "ryan1",
+    "image": "./images/ryan1.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "ryan2",    
+    "image": "./images/ryan2.jpg",
+    "clicked": false    
+  },
+  {
+    "id": 3,
+    "name": "ryan3",    
+    "image": "./images/ryan3.jpg",
+    "clicked": false    
+  },
+  {
+    "id": 4,
+    "name": "ryan4",    
+    "image": "./images/ryan4.jpg",
+    "clicked": false        
+  },
+  {
+    "id": 5,
+    "name": "ryan5",    
+    "image": "./images/ryan5.jpg",
+    "clicked": false        
+  },
+  {
+    "id": 6,
+    "name": "ryan6",    
+    "image": "./images/ryan6.jpg",
+    "clicked": false        
+  },
+  {
+    "id": 7,
+    "name": "ryan7",    
+    "image": "./images/ryan7.jpg",
+    "clicked": false        
+  },
+  {
+    "id": 8,
+    "name": "ryan8",    
+    "image": "./images/ryan8.jpg",
+    "clicked": false        
+  },
+  {
+    "id": 9,
+    "name": "ryan9",    
+    "image": "./images/ryan9.jpg",
+    "clicked": false        
+  },
+  {
+    "id": 10,
+    "name": "ryan10",    
+    "image": "./images/ryan10.jpg",
+    "clicked": false        
+  },
+  {
+    "id": 11,
+    "name": "ryan11",    
+    "image": "./images/ryan11.jpg",
+    "clicked": false        
+  },
+  {
+    "id": 12,
+    "name": "ryan12",    
+    "image": "./images/ryan12.jpg",
+    "clicked": false        
+  }
+]
