@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://melissarburnham.com/Clicky-Game-Gosling-Style/yarn",
+  "homepage" : "http://melissarburnham.com/Clicky-Game-Gosling-Style/",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
