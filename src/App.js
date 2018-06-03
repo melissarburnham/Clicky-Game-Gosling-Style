@@ -67,9 +67,9 @@ class App extends Component {
         </Title>
 
         <GameStats>
-          <div>Only click on each image once!!!</div>        
-          <div>Current Score: {this.state.currentScore}</div>
-          <div>High Score : {this.state.highScore}</div>
+          <div className="game-stat">Only click on each image once!!!</div>        
+          <div className="game-stat">Current Score: {this.state.currentScore}</div>
+          <div className="game-stat">High Score : {this.state.highScore}</div>
           <div> {this.state.winOrLose}</div>
         </GameStats>
          

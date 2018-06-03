@@ -1,7 +1,8 @@
 .gameStats {
   width: 100%;
   text-align: center;
-  font-size: 1rem;
+  font-size: 2rem;
   color: white;
   margin-bottom: 50px;
+  line-height: 35px;
 }
