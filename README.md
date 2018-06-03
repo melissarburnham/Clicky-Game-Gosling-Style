@@ -9,6 +9,5 @@ Test your memory by clicking on each card only once. Can you get a score of 12?
 * Javascript/ES6
 * CSS
 
-# Demo
-User click to scrape articles and new articles will appear. Then, they can click to save articles and view saved articles. 
+# Demo 
 ![demo](https://github.com/melissarburnham/Clicky-Game-Gosling-Style/blob/master/public/images/demo.gif)
