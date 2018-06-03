@@ -5,7 +5,7 @@ const Cards = props => (
   <div className="card">
     <div className="img-container">
       <span onClick={() => props.cardClick(props.id)  } value="clicked" className="cardClicked">
-        <img alt={props.name} src={props.image} />
+        <img className = "card-img" alt={props.name} src={props.image} />
       </span>
     </div>
   </div>

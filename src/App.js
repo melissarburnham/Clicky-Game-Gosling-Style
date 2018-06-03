@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Cards from "./components/Cards";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import GameStats from "./components/GameStats";
+import Footer from "./components/Footer";
 import cards from "./cards.json";
 import "./App.css";
 
@@ -61,23 +63,28 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>The One and Only Ryan Gosling!</Title>
+        <Title>The One and Only Ryan Gosling!
+        </Title>
 
-            <div>Only click on each image once!!!</div>
-            <div>Current Score: {this.state.currentScore}</div>
-            <div>High Score : {this.state.highScore}</div>
-            <div> {this.state.winOrLose}</div>
-            {this.state.cards.map(card => (
-                <Cards
-                  key={card.id}
-                  cardClick={this.cardClick}
-                  scoreIncrement={this.scoreIncrement}
-                  gameReset={this.gameReset}
-                  cardShuffle={this.cardShuffle}
-                  id={card.id}
-                  image={card.image}
-                />
-            ))}
+        <GameStats>
+          <div>Only click on each image once!!!</div>        
+          <div>Current Score: {this.state.currentScore}</div>
+          <div>High Score : {this.state.highScore}</div>
+          <div> {this.state.winOrLose}</div>
+        </GameStats>
+         
+        {this.state.cards.map(card => (
+          <Cards
+            key={card.id}
+            cardClick={this.cardClick}
+            scoreIncrement={this.scoreIncrement}
+            gameReset={this.gameReset}
+            cardShuffle={this.cardShuffle}
+            id={card.id}
+            image={card.image}
+          />
+         ))}
+         <Footer />
       </Wrapper>
     );
   }
