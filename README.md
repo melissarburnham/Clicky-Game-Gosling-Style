@@ -1,5 +1,5 @@
 # Clicky-Game-Gosling-Style
-Click [here](https://arcane-dusk-24699.herokuapp.com/) for a live version of this app!
+Click [here]( http://melissarburnham.com/Clicky-Game-Gosling-Style/) for a live version of this app!
 
 # Description 
 Test your memory by clicking on each card only once. Can you get a score of 12? 
